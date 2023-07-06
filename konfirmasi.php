@@ -23,7 +23,7 @@
 
                 <center><h3>Pembayaran Dapat Melalui :</h3>
                 <hr/>
-                <p> BRI 2132131246 A/N Rental Dirga </p></center>
+                <p> BCA A/N Zidan Novandy 1234124124124 </p></center>
 
             </div>
         </div>

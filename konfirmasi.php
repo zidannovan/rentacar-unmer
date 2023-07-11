@@ -38,7 +38,7 @@
                             <td> :</td>
                             <td><?php echo $hasil['kode_booking'];?></td>
                         </tr>
-                        <tr>
+                        <!-- <tr>
                             <td>No Rekening   </td>
                             <td> :</td>
                             <td><input type="text" name="no_rekening" required class="form-control"></td>
@@ -57,11 +57,16 @@
                             <td>Tanggal  Transfer</td>
                             <td> :</td>
                             <td><input type="date" name="tgl" required class="form-control"></td>
-                        </tr>
+                        </tr> -->
                         <tr>
                             <td>Total yg Harus di Bayar </td>
                             <td> :</td>
                             <td>Rp. <?php echo number_format($hasil['total_harga']);?></td>
+                        </tr>
+                        <tr>
+                            <td>Bukti Pembayaran </td>
+                            <td> :</td>
+                            <td><input type="file" accept="image/*" class="form-control col-sm-9" name="gambar" placeholder="Isi Gambar"></td>
                         </tr>
                     </table>
                     <input type="hidden" name="id_booking" value="<?php echo $hasil['id_booking'];?>">

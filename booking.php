@@ -64,7 +64,7 @@
                     </div> 
                     <div class="form-group">
                       <label for="">Lama Sewa</label>
-                      <input type="number" name="lama_sewa" id="" required class="form-control" placeholder="Lama Sewa">
+                      <input type="number" name="lama_sewa" id="" required class="form-control" placeholder="Dalam Hari">
                     </div> 
                     <input type="hidden" value="<?php echo $_SESSION['USER']['id_login'];?>" name="id_login">
                     <input type="hidden" value="<?php echo $isi['id_mobil'];?>" name="id_mobil">

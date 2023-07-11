@@ -27,7 +27,7 @@ include 'header.php';
         ?>
         <div class="carousel-item <?php if($no == '1'){ echo 'active';}?>">
             <img src="assets/image/<?= $isi['gambar'];?>" alt="First slide" 
-            class="img-fluid" style="object-fit:cover;width:100%;height:500px;">
+            class="img-fluid" style="object-fit:cover;width:100%;height:700px;">
         </div>
         <?php $no++;}?>
     </div>
@@ -95,7 +95,7 @@ include 'header.php';
                 <br/>
                 <div class="col-sm-4">
                     <div class="card">
-                    <img src="assets/image/<?php echo $isi['gambar'];?>" class="card-img-top" style="height:200px;">
+                        <img src="assets/image/<?php echo $isi['gambar'];?>" class="card-img-top" style="height:180px;">
                         <div class="card-body" style="background:#ddd">
                         <h5 class="card-title"><?php echo $isi['merk'];?></h5>
                         </div>

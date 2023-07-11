@@ -42,9 +42,9 @@
                     <a class="nav-link" href="kontak.php">Kontak Kami</a>
                 </li>
             <?php if(!empty($_SESSION['USER'])){?>
-                <li class="nav-item active">
+                <!-- <li class="nav-item active">
                     <a class="nav-link" href="history.php">History</a>
-                </li>
+                </li> -->
                 <li class="nav-item active">
                     <a class="nav-link" href="profil.php">Profil</a>
                 </li>

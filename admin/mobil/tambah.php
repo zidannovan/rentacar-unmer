@@ -47,9 +47,17 @@
 
                         <div class="col-sm-6">
 
-                            <div class="form-group row">
+                            <!-- <div class="form-group row">
                                 <label class="col-sm-3">Deskripsi</label>
                                 <input type="text" class="form-control col-sm-9" name="deskripsi" placeholder="Isi Deskripsi">
+                            </div> -->
+                            <div class="form-group row">
+                                <label class="col-sm-3">Status</label>
+                                <select class="form-control col-sm-9" name="deskripsi">
+                                    <option value="" disabled selected>Bahan Bakar</option>
+                                    <option>Bensin</option>
+                                    <option>Solar</option>
+                                </select>
                             </div>
 
                             <div class="form-group row">

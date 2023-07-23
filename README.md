@@ -38,3 +38,6 @@ password : demo
 4. pada menu "Daftar Mobil" admin dapat mengedit dan menambahkan daftar mobil
 5. pada menu "Daftar Booking" admin dapat mengetahui daftar pemeseanan mobil
 6. pada menu "Peminjaman/Pengebalian" admin dapat mengatur availablenya mobil dengan menggunakan kode booking jika mobil yang tersedia telah di sewa
+
+link website http://rental-mobil.infinityfreeapp.com/
+link video https://drive.google.com/drive/folders/1TsFf41OhoqL95SSKkcZTjjdu3hDR59sU
